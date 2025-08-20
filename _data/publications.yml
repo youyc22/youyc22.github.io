@@ -7,7 +7,7 @@ main:
     pdf: https://arxiv.org/abs/2505.21600
     code: 
     bibtex: 
-    image: 
+    image: ./assets/img/r2r.png
     notes: 
 
   - title: "HyC-LoRA: Memory Efficient LoRA Fine-tuning with Hybrid Activation Compression"
@@ -17,5 +17,5 @@ main:
     pdf: https://mlsys.org/virtual/2025/poster/3254
     code: 
     bibtex: 
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/hyc-lora.png
     notes: 
