@@ -48,4 +48,5 @@ layout: homepage
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8FrsHes3Js4Uw_Ryiqef_c_waw5wREvTTN55vyF7m2I&cl=ffffff&w=a"></script>
+<!-- {% include_relative _includes/services.md %} -->
