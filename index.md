@@ -13,10 +13,10 @@ layout: homepage
   - Previous: The Middle School Attached to Northwestern Polytechnical University
 - Originally from Pucheng, Shaanxi (Born: 2003.12.15)
 
-## Research Interests
+<!-- ## Research Interests
 
 - Efficient Deep Learning
-- Reasoning
+- Reasoning -->
 
 ## Selected Awards/Honors
 
@@ -37,14 +37,11 @@ layout: homepage
 ### Others
 - **Five-Star Volunteer** Tsinghua University `2025.05`
 - **Best Poster Award** Southeast Asia Sustainable Development Innovation Forum `2024.06`
-- **Department 1st Prize** (Team Member) "E Together to the Future" Baotou Microcontroller Teaching `2024.02`
-- **Department Silver, University Bronze** (Team Member) "Clear Water of Canglang" Alumni Connection Practice `2023.06`
 
-## Interesting Projects
+<!-- - **Department 1st Prize** (Team Member) "E Together to the Future" Baotou Microcontroller Teaching `2024.02`
+- **Department Silver, University Bronze** (Team Member) "Clear Water of Canglang" Alumni Connection Practice `2023.06` -->
 
-- **Multifunctional Bluetooth Gloves** — [View Demo](https://www.bilibili.com/video/BV15vhNeVEf2/) · [Repository](https://github.com/youyc22/Multifunctional)
-- **ChatYYC** — [Try Now](https://youyc22.com/chat/) · [Repository](https://github.com/youyc22/chat)
-- **2048 Advanced Version** — [View Demo](https://www.bilibili.com/video/BV15k4y1a79S) · [Repository](https://github.com/youyc22/EESDC6-2048-Advanced-Version)
+{% include_relative _includes/projects.md %}
 
 {% include_relative _includes/publications.md %}
 
