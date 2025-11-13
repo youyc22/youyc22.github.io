@@ -2,8 +2,8 @@ main:
   - title: "Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models"
     authors: Tianyu Fu<sup>†</sup>, <strong>Yichen You<sup>†</sup></strong>, Zekai Chen, Guohao Dai, Huazhong Yang, Yu Wang
     conference_short: Coming Soon
-    conference: Coming Soon, 2025.
-    pdf: https://comming/soon
+    conference: arXiV
+    pdf: https://arxiv.org/abs/2511.08577
     code: https://github.com/thu-nics/TaH.git
     bibtex:
     image: ./assets/img/tah.png
