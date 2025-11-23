@@ -7,7 +7,7 @@ layout: homepage
 - I'm **Yichen You**, an undergraduate student at Tsinghua University.
 - Interests:
   - Academic: Efficient Deep Learning, Reasoning
-  - Personal: Movies, Badminton, Cycling
+  - Personal: Movies, Badminton, Squash
 - Education:
   - Current: Undergraduate at Tsinghua University (2022.09 - Now)
   - Previous: The Middle School Attached to Northwestern Polytechnical University

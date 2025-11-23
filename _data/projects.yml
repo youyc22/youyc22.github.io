@@ -9,13 +9,12 @@ main:
     conference_short: AIMO2
     conference: Kaggle AIMO2, 2025.
 
-  # - title: "Multifunctional Bluetooth Gloves"
-  #   demo: https://www.bilibili.com/video/BV15vhNeVEf2/
-  #   code: https://github.com/youyc22/Multifunctional
-  #   image: ./assets/img/multi.png
-  #   authors: <strong>Yichen You</strong>, Jinxuan Li
-  #   conference_short: Hardware Design
-  #   conference: 26th Hardware Design Competition, 2023.09
+  - title: "Multifunctional Bluetooth Gloves"
+    demo: https://www.bilibili.com/video/BV15vhNeVEf2/
+    code: https://github.com/youyc22/Multifunctional
+    image: ./assets/img/multi.png
+    conference_short: Hardware Design
+    conference: 26th Hardware Design Competition, 2023.09
   
   # - title: "2048 Advanced Version"
   #   demo: https://www.bilibili.com/video/BV15k4y1a79S
