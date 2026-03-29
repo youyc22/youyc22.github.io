@@ -2,9 +2,10 @@ main:
   - title: "Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models"
     authors: Tianyu Fu<sup>†</sup>, <strong>Yichen You<sup>†</sup></strong>, Zekai Chen, Guohao Dai, Huazhong Yang, Yu Wang
     conference_short: Coming Soon
-    conference: arXiV
+    conference: ICLR workshop oral, 2026
     pdf: https://arxiv.org/abs/2511.08577
     code: https://github.com/thu-nics/TaH.git
+    demo: https://fuvty.github.io/TaH_project_page/
     bibtex:
     image: ./assets/img/tah.png
     notes: 
@@ -15,6 +16,7 @@ main:
     conference: NeurIPS, 2025.
     pdf: https://arxiv.org/abs/2505.21600
     code: https://github.com/thu-nics/R2R.git
+    demo: https://fuvty.github.io/R2R_Project_Page/
     bibtex: 
     image: ./assets/img/r2r.png
     notes: 
