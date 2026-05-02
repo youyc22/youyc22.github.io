@@ -1,8 +1,8 @@
 main:
   - title: "Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models"
     authors: Tianyu Fu<sup>†</sup>, <strong>Yichen You<sup>†</sup></strong>, Zekai Chen, Guohao Dai, Huazhong Yang, Yu Wang
-    conference_short: Coming Soon
-    conference: ICLR workshop oral, 2026
+    conference_short: ICML 2026
+    conference: ICML 2026; ICLR 2026 Workshop (Oral).
     pdf: https://arxiv.org/abs/2511.08577
     code: https://github.com/thu-nics/TaH.git
     demo: https://fuvty.github.io/TaH_project_page/
@@ -13,7 +13,7 @@ main:
   - title: "Roads to Rome (R2R): Efficiently Navigating Divergent Reasoning Paths with Small-Large Model Token Routing"
     authors: Tianyu Fu<sup>†</sup>, Yi Ge<sup>†</sup>, <strong>Yichen You</strong>, Enshu Liu, Zhihang Yuan, Guohao Dai, Shengen Yan, Huazhong Yang, Yu Wang
     conference_short: NeurIPS 2025
-    conference: NeurIPS, 2025.
+    conference: NeurIPS 2025.
     pdf: https://arxiv.org/abs/2505.21600
     code: https://github.com/thu-nics/R2R.git
     demo: https://fuvty.github.io/R2R_Project_Page/
@@ -24,7 +24,7 @@ main:
   - title: "HyC-LoRA: Memory Efficient LoRA Fine-tuning with Hybrid Activation Compression"
     authors: Yujin Wang, Shunan Dong, Zongle Huang, <strong>Yichen You</strong>, Liu He, Huazhong Yang, Yongpan Liu, Hongyang Jia
     conference_short: MLSys 2025
-    conference: MLSys, 2025.
+    conference: MLSys 2025.
     pdf: https://mlsys.org/virtual/2025/poster/3254
     code: https://github.com/thu-ee-acts-lab/HyC-LoRA-release
     bibtex: 
