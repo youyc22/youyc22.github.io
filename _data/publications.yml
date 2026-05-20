@@ -1,4 +1,14 @@
 main:
+  - title: "Post-Trained MoE Can Skip Half Experts via Self-Distillation"
+    authors: Xingtai Lv<sup>†</sup>, Li Sheng<sup>†</sup>, Kaiyan Zhang<sup>†</sup>, <strong>Yichen You</strong>, Siyan Gao, Xueheng Luo, Yuxin Zuo, Yuchen Fan, Junlin Yang, Ganqu Cui, Bingning Wang, Fan Yang, Youbang Sun, Ning Ding, Bowen Zhou
+    conference_short: arXiv 2026
+    conference: arXiv preprint, 2026.
+    code: https://github.com/TsinghuaC3I/ZEDA
+    pdf: https://arxiv.org/abs/2605.18643
+    bibtex: 
+    image: ./assets/img/zeda.png
+    notes: 
+
   - title: "Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models"
     authors: Tianyu Fu<sup>†</sup>, <strong>Yichen You<sup>†</sup></strong>, Zekai Chen, Guohao Dai, Huazhong Yang, Yu Wang
     conference_short: ICML 2026
