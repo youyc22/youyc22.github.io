@@ -1,14 +1,16 @@
 # Basic Information 
 title: Yichen You
-position: Undergraduate Student
+position: Incoming Ph.D. Student
 affiliation: Tsinghua University
-email: yiyouyc22yyc@gmail.com
+affiliation_link: https://www.tsinghua.edu.cn/en/
+email: yi2100237651@outlook.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: yichen you
-description: Yichen You's personal website
+description: Yichen You is an incoming Ph.D. student in Electronic Engineering at Tsinghua University.
 canonical: https://youyc22.com/
+url: https://youyc22.com
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -55,3 +57,14 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+
+# Top navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Honors
+    url: /honors/

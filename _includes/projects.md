@@ -1,5 +1,3 @@
-<h2 id="projects" style="margin: 2px 0px -15px;">Selected Projects</h2>
-
 <div class="publications">
 <ol class="bibliography">
 
@@ -9,7 +7,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if item.image %}
-    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    <img src="{{ item.image | relative_url }}" class="teaser img-fluid z-depth-1" alt="{{ item.title }} teaser">
     {% if item.conference_short %}
     <abbr class="badge">{{ item.conference_short }}</abbr>
     {% endif %}
@@ -49,5 +47,3 @@
 
 </ol>
 </div>
-
-
