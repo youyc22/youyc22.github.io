@@ -4,13 +4,16 @@ position: Incoming Ph.D. Student
 affiliation: Tsinghua University
 affiliation_link: https://www.tsinghua.edu.cn/en/
 email: yi2100237651@outlook.com
+lang: en-US
+last_updated: August 2026
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: yichen you
-description: Yichen You is an incoming Ph.D. student in Electronic Engineering at Tsinghua University.
+keywords: Yichen You, efficient reasoning, adaptive computation, long-horizon agents, Tsinghua University
+description: Yichen You is an incoming Ph.D. student at Tsinghua University working on efficient reasoning, adaptive computation, and long-horizon agents.
 canonical: https://youyc22.com/
 url: https://youyc22.com
+og_image: ./assets/img/web/og.jpg
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -18,17 +21,18 @@ google_scholar: https://scholar.google.com/citations?user=Hzg5gXYAAAAJ
 cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/youyc22
 linkedin: https://www.linkedin.com/in/yichen-you-82ab59353/
-twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/girl1.png
-favicon: ./assets/img/girl1.png
-favicon_dark: ./assets/img/girl1.png
+avatar: ./assets/img/web/profile-avatar.jpg
+avatar_width: 480
+avatar_height: 472
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
+enable_footnote: false
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
@@ -37,10 +41,6 @@ auto_dark_mode: false
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

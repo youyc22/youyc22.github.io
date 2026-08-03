@@ -2,10 +2,11 @@
 layout: homepage
 title: Projects
 permalink: /projects/
+description: Selected research, hardware, and software projects by Yichen You.
 ---
 
 ## Selected Projects
 
-This page collects selected research and engineering projects beyond the publications highlighted on the home page.
+Selected work across mathematical reasoning, computer architecture, embedded systems, and software design.
 
 {% include_relative _includes/projects.md %}

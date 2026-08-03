@@ -1,23 +1,47 @@
 main:
-
-
   - title: "AI Mathematical Olympiad - Progress Prize 2"
+    year: "2025"
+    role: "Core Contributor"
+    summary: "Developed an open-source competition system for mathematical reasoning with large language models."
+    outcome: "Global 2nd place among 2,212 teams"
     demo: https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/leaderboard
     code: https://github.com/imagination-research/aimo2
-    image: ./assets/img/aimo2.png
-    authors: <strong>Yichen You</strong>, Xuefei Ning, Zinan Lin
-    conference_short: AIMO2
-    conference: Kaggle AIMO2, 2025.
+    image: ./assets/img/web/aimo2.jpg
+    image_width: 1000
+    image_height: 339
+    tag: AIMO2
+    people: "With Xuefei Ning and Zinan Lin"
+
+  - title: "Five-Stage Pipelined MIPS CPU"
+    year: "2024"
+    role: "Individual Project"
+    summary: "Designed a single-issue five-stage MIPS processor with an instruction cache on FPGA, reaching 117 MHz in the final submission."
+    outcome: "National 3rd Prize · Loongson Cup MIPS Track"
+    code: https://github.com/youyc22/NSCSCC-2024
+    demo: https://www.nscscc.com/
+    visual: "MIPS"
+    tag: CPU · FPGA
 
   - title: "Multifunctional Bluetooth Gloves"
+    year: "2023"
+    role: "Team Lead"
+    summary: "Built an ESP32-based gesture controller for mouse and keyboard input, custom gesture templates, and real-time 3D hand visualization."
+    outcome: "University 1st Prize · PCB Award"
     demo: https://www.bilibili.com/video/BV15vhNeVEf2/
     code: https://github.com/youyc22/Multifunctional
-    image: ./assets/img/multi.png
-    conference_short: Hardware Design
-    conference: 26th Hardware Design Competition, 2023.09
-  
-  # - title: "2048 Advanced Version"
-  #   demo: https://www.bilibili.com/video/BV15k4y1a79S
-  #   code: https://github.com/youyc22/EESDC6-2048-Advanced-Version
-  #   image: ./assets/img/2048.png
-  #   notes: 
+    image: ./assets/img/web/multi.jpg
+    image_width: 1000
+    image_height: 666
+    tag: Embedded · PCB
+
+  - title: "2048 Advanced Version"
+    year: "2023"
+    role: "Team Lead"
+    summary: "Designed and implemented an extended version of 2048 for Tsinghua University's software design competition."
+    outcome: "University 2nd Prize"
+    demo: https://www.bilibili.com/video/BV15k4y1a79S
+    code: https://github.com/youyc22/EESDC6-2048-Advanced-Version
+    image: ./assets/img/web/2048.jpg
+    image_width: 900
+    image_height: 413
+    tag: Software Design

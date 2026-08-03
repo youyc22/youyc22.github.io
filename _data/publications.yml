@@ -7,7 +7,9 @@ main:
     code: https://github.com/thu-nics/TaH.git
     demo: https://fuvty.github.io/TaH_project_page/
     bibtex:
-    image: ./assets/img/tah.png
+    image: ./assets/img/web/tah.jpg
+    image_width: 900
+    image_height: 329
     notes: 
 
   - title: "Post-Trained MoE Can Skip Half Experts via Self-Distillation"
@@ -17,7 +19,9 @@ main:
     code: https://github.com/TsinghuaC3I/ZEDA
     pdf: https://arxiv.org/abs/2605.18643
     bibtex: 
-    image: ./assets/img/zeda.png
+    image: ./assets/img/web/zeda.jpg
+    image_width: 1000
+    image_height: 388
     notes: 
 
   - title: "Roads to Rome (R2R): Efficiently Navigating Divergent Reasoning Paths with Small-Large Model Token Routing"
@@ -28,7 +32,9 @@ main:
     code: https://github.com/thu-nics/R2R.git
     demo: https://fuvty.github.io/R2R_Project_Page/
     bibtex: 
-    image: ./assets/img/r2r.png
+    image: ./assets/img/web/r2r.jpg
+    image_width: 1000
+    image_height: 384
     notes: 
 
   - title: "HyC-LoRA: Memory Efficient LoRA Fine-tuning with Hybrid Activation Compression"
@@ -38,6 +44,7 @@ main:
     pdf: https://mlsys.org/virtual/2025/poster/3254
     code: https://github.com/thu-ee-acts-lab/HyC-LoRA-release
     bibtex: 
-    image: ./assets/img/hyc-lora.png
+    image: ./assets/img/web/hyc-lora.jpg
+    image_width: 900
+    image_height: 856
     notes: 
-

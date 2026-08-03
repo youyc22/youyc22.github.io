@@ -1,49 +1,26 @@
-<div class="publications">
-<ol class="bibliography">
-
+<div class="project-list">
 {% for item in site.data.projects.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if item.image %}
-    <img src="{{ item.image | relative_url }}" class="teaser img-fluid z-depth-1" alt="{{ item.title }} teaser">
-    {% if item.conference_short %}
-    <abbr class="badge">{{ item.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">
-        {% if item.demo %}
-        <a href="{{ item.demo }}" target="_blank">{{ item.title }}</a>
-        {% else %}
-        {{ item.title }}
-        {% endif %}
-      </div>
-      <div class="author">{{ item.authors }}</div>
-      <div class="periodical"><em>{{ item.conference }}</em>
-      </div>
-    <div class="links">
-      {% if item.demo %}
-      <a href="{{ item.demo }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Demo</a>
+  <article class="project-card">
+    <div class="project-media">
+      {% if item.image %}
+      <img src="{{ item.image | relative_url }}" alt="Preview of {{ item.title }}" width="{{ item.image_width }}" height="{{ item.image_height }}" loading="lazy" decoding="async">
+      {% else %}
+      <div class="project-visual" aria-hidden="true"><span>{{ item.visual }}</span></div>
       {% endif %}
-      {% if item.code %}
-      <a href="{{ item.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if item.page %}
-      <a href="{{ item.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if item.notes %}
-      <strong> <i style="color:#e74d3c">{{ item.notes }}</i></strong>
-      {% endif %}
+      {% if item.tag %}<span class="project-tag">{{ item.tag }}</span>{% endif %}
     </div>
-  </div>
-</div>
-</li>
-<br>
-
+    <div class="project-content">
+      <div class="project-kicker"><span>{{ item.year }}</span><span>{{ item.role }}</span></div>
+      <h3>{{ item.title }}</h3>
+      <p class="project-summary">{{ item.summary }}</p>
+      {% if item.people %}<p class="project-people">{{ item.people }}</p>{% endif %}
+      <p class="project-outcome">{{ item.outcome }}</p>
+      <div class="action-links" aria-label="Links for {{ item.title }}">
+        {% if item.demo %}<a href="{{ item.demo }}" target="_blank" rel="noopener">Demo</a>{% endif %}
+        {% if item.code %}<a href="{{ item.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+        {% if item.page %}<a href="{{ item.page }}" target="_blank" rel="noopener">Project</a>{% endif %}
+      </div>
+    </div>
+  </article>
 {% endfor %}
-
-</ol>
 </div>
