@@ -7,6 +7,7 @@ main:
     demo: https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/leaderboard
     code: https://github.com/imagination-research/aimo2
     image: ./assets/img/web/aimo2.jpg
+    full_image: ./assets/img/aimo2.png
     image_width: 1000
     image_height: 339
     tag: AIMO2
@@ -30,6 +31,7 @@ main:
     demo: https://www.bilibili.com/video/BV15vhNeVEf2/
     code: https://github.com/youyc22/Multifunctional
     image: ./assets/img/web/multi.jpg
+    full_image: ./assets/img/multi.png
     image_width: 1000
     image_height: 666
     tag: Embedded · PCB
@@ -42,6 +44,7 @@ main:
     demo: https://www.bilibili.com/video/BV15k4y1a79S
     code: https://github.com/youyc22/EESDC6-2048-Advanced-Version
     image: ./assets/img/web/2048.jpg
+    full_image: ./assets/img/2048.png
     image_width: 900
     image_height: 413
     tag: Software Design

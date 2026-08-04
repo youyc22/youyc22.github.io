@@ -5,7 +5,9 @@
   <article class="publication-card">
     {% if item.image %}
     <div class="publication-media">
-      <img src="{{ item.image | relative_url }}" alt="Teaser for {{ item.title }}" width="{{ item.image_width }}" height="{{ item.image_height }}" loading="lazy" decoding="async">
+      <button class="lightbox-trigger" type="button" data-lightbox-trigger data-lightbox-src="{{ item.full_image | default: item.image | relative_url }}" aria-label="Enlarge teaser for {{ item.title }}" aria-haspopup="dialog">
+        <img src="{{ item.image | relative_url }}" alt="Teaser for {{ item.title }}" width="{{ item.image_width }}" height="{{ item.image_height }}" loading="lazy" decoding="async">
+      </button>
       {% if item.conference_short %}<span class="publication-badge">{{ item.conference_short }}</span>{% endif %}
     </div>
     {% endif %}

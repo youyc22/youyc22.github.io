@@ -67,9 +67,9 @@
     <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ site.asset_version | url_encode }}">
     {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/style-no-dark-mode.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style-no-dark-mode.css" | relative_url }}?v={{ site.asset_version | url_encode }}">
     {% endif %}
 
   </head>
@@ -93,7 +93,7 @@
       <header>
         
         {% if site.avatar %}
-        <a class="image avatar" href="{{ "/" | relative_url }}"><img src="{{ site.avatar | relative_url }}" alt="Portrait of {{ site.title }}" width="{{ site.avatar_width }}" height="{{ site.avatar_height }}" decoding="async" fetchpriority="high" /></a>
+        <button class="image avatar lightbox-trigger" type="button" data-lightbox-trigger aria-label="Enlarge portrait of {{ site.title }}" aria-haspopup="dialog"><img src="{{ site.avatar | relative_url }}" alt="Portrait of {{ site.title }}" width="{{ site.avatar_width }}" height="{{ site.avatar_height }}" decoding="async" fetchpriority="high" /></button>
         {% endif %}
 
         <div class="profile-copy">
@@ -158,7 +158,22 @@
     <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
       <span aria-hidden="true">↑</span>
     </button>
+    <dialog class="image-lightbox" aria-label="Expanded image" aria-modal="true">
+      <div class="image-lightbox__stage">
+        <button class="image-lightbox__close" type="button" aria-label="Close image preview">
+          <span aria-hidden="true">×</span>
+        </button>
+        <button class="image-lightbox__nav image-lightbox__nav--previous" type="button" aria-label="Previous image">
+          <span aria-hidden="true">‹</span>
+        </button>
+        <img class="image-lightbox__image" alt="">
+        <button class="image-lightbox__nav image-lightbox__nav--next" type="button" aria-label="Next image">
+          <span aria-hidden="true">›</span>
+        </button>
+        <p class="image-lightbox__counter" aria-live="polite"></p>
+      </div>
+    </dialog>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/interactions.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/interactions.js" | relative_url }}?v={{ site.asset_version | url_encode }}"></script>
   </body>
 </html>

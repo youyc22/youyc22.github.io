@@ -44,10 +44,14 @@ description: About Yichen You—education, research interests, and life beyond r
 
   <div class="collection-gallery" aria-label="A small collection of fridge magnets and LINLEE ducks">
     <figure class="collection-shot collection-shot--magnets">
-      <img src="{{ "/assets/img/beyond-research/fridge-magnets.jpg" | relative_url }}" alt="A display board filled with colorful fridge magnets from different places" width="851" height="1400" loading="lazy" decoding="async">
+      <button class="lightbox-trigger" type="button" data-lightbox-trigger aria-label="Enlarge the fridge magnet collection" aria-haspopup="dialog">
+        <img src="{{ "/assets/img/beyond-research/fridge-magnets.jpg" | relative_url }}" alt="A display board filled with colorful fridge magnets from different places" width="851" height="1400" loading="lazy" decoding="async">
+      </button>
     </figure>
     <figure class="collection-shot collection-shot--ducks">
-      <img src="{{ "/assets/img/beyond-research/linlee-ducks.jpg" | relative_url }}" alt="A colorful collection of small LINLEE Lemon Tea ducks arranged on a shelf" width="1400" height="932" loading="lazy" decoding="async">
+      <button class="lightbox-trigger" type="button" data-lightbox-trigger aria-label="Enlarge the LINLEE duck collection" aria-haspopup="dialog">
+        <img src="{{ "/assets/img/beyond-research/linlee-ducks.jpg" | relative_url }}" alt="A colorful collection of small LINLEE Lemon Tea ducks arranged on a shelf" width="1400" height="932" loading="lazy" decoding="async">
+      </button>
     </figure>
   </div>
 </div>

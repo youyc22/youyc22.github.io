@@ -8,6 +8,7 @@ main:
     demo: https://fuvty.github.io/TaH_project_page/
     bibtex:
     image: ./assets/img/web/tah.jpg
+    full_image: ./assets/img/tah.png
     image_width: 900
     image_height: 329
     notes: 
@@ -20,6 +21,7 @@ main:
     pdf: https://arxiv.org/abs/2605.18643
     bibtex: 
     image: ./assets/img/web/zeda.jpg
+    full_image: ./assets/img/zeda.png
     image_width: 1000
     image_height: 388
     notes: 
@@ -33,6 +35,7 @@ main:
     demo: https://fuvty.github.io/R2R_Project_Page/
     bibtex: 
     image: ./assets/img/web/r2r.jpg
+    full_image: ./assets/img/r2r.png
     image_width: 1000
     image_height: 384
     notes: 
@@ -45,6 +48,7 @@ main:
     code: https://github.com/thu-ee-acts-lab/HyC-LoRA-release
     bibtex: 
     image: ./assets/img/web/hyc-lora.jpg
+    full_image: ./assets/img/hyc-lora.png
     image_width: 900
     image_height: 856
     notes: 

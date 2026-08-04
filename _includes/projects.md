@@ -3,7 +3,9 @@
   <article class="project-card">
     <div class="project-media">
       {% if item.image %}
-      <img src="{{ item.image | relative_url }}" alt="Preview of {{ item.title }}" width="{{ item.image_width }}" height="{{ item.image_height }}" loading="lazy" decoding="async">
+      <button class="lightbox-trigger" type="button" data-lightbox-trigger data-lightbox-src="{{ item.full_image | default: item.image | relative_url }}" aria-label="Enlarge preview of {{ item.title }}" aria-haspopup="dialog">
+        <img src="{{ item.image | relative_url }}" alt="Preview of {{ item.title }}" width="{{ item.image_width }}" height="{{ item.image_height }}" loading="lazy" decoding="async">
+      </button>
       {% else %}
       <div class="project-visual" aria-hidden="true"><span>{{ item.visual }}</span></div>
       {% endif %}
