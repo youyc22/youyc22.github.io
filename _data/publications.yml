@@ -1,4 +1,15 @@
 main:
+  - title: "Improving Test-Time Scaling with Adaptive Looped Transformers"
+    authors: <strong>Yichen You<sup>†</sup></strong>, Tianyu Fu<sup>†</sup>, Aosong Feng<sup>†</sup>, Xingtai Lv, Xuefei Ning, Ning Ding, Yu Wang
+    conference_short: arXiv 2026
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2609.35748
+    code: https://github.com/thu-nics/TaH
+    image: ./assets/img/web/tah2.jpg
+    full_image: ./assets/img/tah2.png
+    image_width: 1000
+    image_height: 453
+
   - title: "Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models"
     authors: Tianyu Fu<sup>†</sup>, <strong>Yichen You<sup>†</sup></strong>, Zekai Chen, Guohao Dai, Huazhong Yang, Yu Wang
     conference_short: ICML 2026
