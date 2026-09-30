@@ -24,6 +24,17 @@ main:
     image_height: 329
     notes: 
 
+  - title: "TokenRouter: Efficient Serving System for Token-Level LLM Routing"
+    authors: Tianyu Fu<sup>†</sup>, Tengxuan Liu<sup>†</sup>, Ruoxi Wang, Yixin Dong, Yi Ge, <strong>Yichen You</strong>, Yu Wang
+    conference_short: NeurIPS 2026
+    conference: NeurIPS 2026.
+    pdf: # TODO: Add the arXiv URL when available.
+    demo: https://fuvty.github.io/thinking_yard_project_page/projects/tokenrouter/
+    image: ./assets/img/web/tokenrouter.jpg
+    full_image: ./assets/img/tokenrouter.png
+    image_width: 1001
+    image_height: 259
+
   - title: "Post-Trained MoE Can Skip Half Experts via Self-Distillation"
     authors: Xingtai Lv<sup>†</sup>, Li Sheng<sup>†</sup>, Kaiyan Zhang<sup>†</sup>, <strong>Yichen You</strong>, Siyan Gao, Xueheng Luo, Yuxin Zuo, Yuchen Fan, Junlin Yang, Ganqu Cui, Bingning Wang, Fan Yang, Youbang Sun, Ning Ding, Bowen Zhou
     conference_short: arXiv 2026
