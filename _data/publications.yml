@@ -17,7 +17,7 @@ main:
     conference: ICML 2026; ICLR 2026 Workshop (Oral).
     pdf: https://arxiv.org/abs/2511.08577
     code: https://github.com/thu-nics/TaH.git
-    demo: https://fuvty.github.io/TaH_project_page/
+    demo: https://fuvty.github.io/thinking_yard_project_page/projects/tah/
     bibtex:
     image: ./assets/img/web/tah.jpg
     full_image: ./assets/img/tah.png
