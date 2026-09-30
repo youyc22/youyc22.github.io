@@ -5,6 +5,7 @@ main:
     conference: arXiv preprint, 2026.
     pdf: https://arxiv.org/abs/2609.35748
     code: https://github.com/thu-nics/TaH
+    demo: https://fuvty.github.io/thinking_yard_project_page/projects/tah2/
     image: ./assets/img/web/tah2.jpg
     full_image: ./assets/img/tah2.png
     image_width: 1000
