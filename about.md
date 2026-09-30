@@ -8,8 +8,8 @@ description: About Yichen You—education, research interests, and life beyond r
 ## About Me
 
 <div class="about-intro">
-  <p class="profile-lead">I am <strong>Yichen You</strong>. I completed my undergraduate studies at Tsinghua University from 2022 to June 2026, and I will soon begin my Ph.D. studies in the Department of Electronic Engineering at Tsinghua University.</p>
-  <p class="about-focus">I study how reasoning systems can allocate computation adaptively, route work efficiently, and remain effective over long horizons.</p>
+  <p class="profile-lead">I am <strong>Yichen You</strong>, a first-year Ph.D. student in the Department of Electronic Engineering at Tsinghua University. I completed my undergraduate studies at Tsinghua University in June 2026.</p>
+  <p class="about-focus">My research interests include adaptive computation, long-horizon agents, and efficient deep learning.</p>
 </div>
 
 ## Education
@@ -18,7 +18,7 @@ description: About Yichen You—education, research interests, and life beyond r
   <article class="education-entry">
     <div class="education-date">2026 —</div>
     <div class="education-content">
-      <span class="education-status">Incoming</span>
+      <span class="education-status">Current</span>
       <h3>Tsinghua University</h3>
       <p class="education-degree">Ph.D. Student · Department of Electronic Engineering</p>
       <p class="education-detail">Jointly advised by <a href="https://www.stingning.cn/" target="_blank" rel="noopener">Prof. Ning Ding</a> and <a href="https://nicsefc.ee.tsinghua.edu.cn/people/YuWang" target="_blank" rel="noopener">Prof. Yu Wang</a>.</p>

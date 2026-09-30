@@ -1,11 +1,11 @@
 ---
 layout: homepage
-description: Yichen You works on efficient reasoning, adaptive computation, and long-horizon agents at Tsinghua University.
+description: Yichen You is a first-year Ph.D. student at Tsinghua University interested in adaptive computation, long-horizon agents, and efficient deep learning.
 ---
 
 ## About Me
 
-<p class="profile-lead">I am <strong>Yichen You</strong>, an incoming Ph.D. student in Electronic Engineering at Tsinghua University. My research asks how reasoning systems can spend computation where it matters—through <strong>adaptive computation</strong>, <strong>efficient routing</strong>, and <strong>long-horizon decision-making</strong>.</p>
+<p class="profile-lead">I am <strong>Yichen You</strong>, a first-year Ph.D. student in the Department of Electronic Engineering at Tsinghua University. My research interests include <strong>adaptive computation</strong>, <strong>long-horizon agents</strong>, and <strong>efficient deep learning</strong>.</p>
 
 Outside research, I enjoy movies, badminton, and working out. [More about me →]({{ "/about/" | relative_url }})
 
