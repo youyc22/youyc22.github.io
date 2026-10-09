@@ -29,7 +29,8 @@ main:
     authors: Tianyu Fu<sup>†</sup>, Tengxuan Liu<sup>†</sup>, Ruoxi Wang, Yixin Dong, Yi Ge, <strong>Yichen You</strong>, Yu Wang
     conference_short: NeurIPS 2026
     conference: NeurIPS 2026.
-    pdf: # TODO: Add the arXiv URL when available.
+    pdf: https://arxiv.org/abs/2610.12242
+    code: https://github.com/thu-nics/TokenRouter
     demo: https://fuvty.github.io/thinking_yard_project_page/projects/tokenrouter/
     image: ./assets/img/web/tokenrouter.jpg
     full_image: ./assets/img/tokenrouter.png
