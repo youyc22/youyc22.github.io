@@ -35,6 +35,8 @@ description: About Yichen You—education, research interests, and life beyond r
   </article>
 </div>
 
+{% include_relative _includes/internships.md %}
+
 ## Beyond Research
 
 <div class="about-note">
