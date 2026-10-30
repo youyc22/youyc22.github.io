@@ -13,7 +13,7 @@ description: Awards, competition results, and service recognition received by Yi
     <article class="honors-item">
       <time datetime="2026">2026</time>
       <div>
-        <h4>Outstanding Graduate</h4>
+        <h4>Outstanding Graduate (Top 5%)</h4>
         <p>Tsinghua University</p>
       </div>
     </article>

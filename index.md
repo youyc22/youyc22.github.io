@@ -11,14 +11,16 @@ Outside research, I enjoy movies, badminton, and working out. [More about me →
 
 {% include_relative _includes/education-experience.html %}
 
-{% include_relative _includes/publications.md %}
+{% include_relative _includes/publications.md selected=true %}
+
+<p class="section-link"><a href="{{ "/publications/" | relative_url }}">View all publications →</a></p>
 
 ## Selected Honors
 
 <div class="honors-grid">
   <article class="honor-card">
     <span class="honor-year">2026</span>
-    <h3>Outstanding Graduate</h3>
+    <h3>Outstanding Graduate (Top 5%)</h3>
     <p>Tsinghua University</p>
   </article>
   <article class="honor-card">

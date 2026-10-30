@@ -1,7 +1,11 @@
-<h2 id="publications">Publications</h2>
+<h2 id="publications">{% if include.selected %}Selected Publications{% else %}Publications{% endif %}</h2>
 
 <div class="publication-list">
-{% for item in site.data.publications.main %}
+{% assign publications = site.data.publications.main %}
+{% if include.selected %}
+{% assign publications = publications | where: "selected", true %}
+{% endif %}
+{% for item in publications %}
   <article class="publication-card">
     {% if item.image %}
     <div class="publication-media">
