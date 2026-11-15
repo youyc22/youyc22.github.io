@@ -1,0 +1,58 @@
+.message-form {
+  display: grid;
+  gap: 16px;
+  max-width: 540px;
+}
+
+.message-form__field {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.message-form__field label {
+  font-weight: 600;
+}
+
+.message-form__optional {
+  font-size: 0.875em;
+  font-weight: normal;
+}
+
+.message-form__field input,
+.message-form__field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #8394a5;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: max(1em, 16px);
+}
+
+.message-form__field textarea {
+  resize: vertical;
+}
+
+.message-form button {
+  justify-self: start;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: #043361;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.message-form button:hover {
+  background: #245780;
+}
+
+.message-form :focus-visible {
+  outline: 2px solid #6d9abc;
+  outline-offset: 3px;
+}

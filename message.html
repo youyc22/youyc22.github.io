@@ -1,0 +1,35 @@
+---
+layout: homepage
+title: Message
+permalink: /message/
+description: Send a private message to Yichen You.
+---
+
+<h2>Leave a message</h2>
+
+{% assign form_id = site.formspree_form_id | default: "" %}
+{% if form_id != "" %}
+<p>Your message goes to my private inbox. Leave the name and email fields blank if you prefer to stay anonymous.</p>
+
+<form class="message-form" method="post" action="https://formspree.io/f/{{ form_id | url_encode }}">
+  <div class="message-form__field">
+    <label for="message-text">Message</label>
+    <textarea id="message-text" name="message" rows="6" maxlength="5000" required></textarea>
+  </div>
+
+  <div class="message-form__field">
+    <label for="message-name">Name <span class="message-form__optional">(optional)</span></label>
+    <input id="message-name" name="name" type="text" autocomplete="name" maxlength="100">
+  </div>
+
+  <div class="message-form__field">
+    <label for="message-email">Email for a reply <span class="message-form__optional">(optional)</span></label>
+    <input id="message-email" name="email" type="email" autocomplete="email" maxlength="254">
+  </div>
+
+  <input type="text" name="_gotcha" autocomplete="off" tabindex="-1" hidden>
+  <button type="submit">Send message</button>
+</form>
+{% else %}
+<p>The message form is currently unavailable.</p>
+{% endif %}
