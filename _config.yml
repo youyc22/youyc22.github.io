@@ -6,7 +6,7 @@ affiliation_link: https://www.tsinghua.edu.cn/en/
 email: yi2100237651@outlook.com
 lang: en-US
 last_updated: October 2026
-asset_version: 20261115-private-messages
+asset_version: 20261115-home-messages
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -72,7 +72,7 @@ navigation:
   - title: Publications
     url: /publications/
   - title: Message
-    url: /message/
+    url: "/#message"
 
 # Public form ID from the Formspree endpoint https://formspree.io/f/<id>
 formspree_form_id: xvkakopd

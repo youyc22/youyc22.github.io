@@ -16,10 +16,4 @@ permalink: /sitemap.xml
   <url>
     <loc>{{ "/honors/" | absolute_url }}</loc>
   </url>
-  {% assign form_id = site.formspree_form_id | default: "" %}
-  {% if form_id != "" %}
-  <url>
-    <loc>{{ "/message/" | absolute_url }}</loc>
-  </url>
-  {% endif %}
 </urlset>
