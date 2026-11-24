@@ -28,8 +28,8 @@ linkedin: https://www.linkedin.com/in/yichen-you-82ab59353/
 avatar: ./assets/img/web/profile-avatar.jpg
 avatar_width: 480
 avatar_height: 472
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/favicon-avatar.png
+favicon_dark: ./assets/img/favicon-avatar.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
