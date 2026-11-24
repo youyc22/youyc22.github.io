@@ -9,7 +9,7 @@ description: About Yichen You—education, research interests, and life beyond r
 
 <div class="about-intro">
   <p class="profile-lead">I am <strong>Yichen You</strong>, a first-year Ph.D. student in the Department of Electronic Engineering at Tsinghua University. I completed my undergraduate studies at Tsinghua University in June 2026.</p>
-  <p class="about-focus">I am broadly interested in LLMs, including model architectures (esp. looped models), post-training (esp. RL), and long-horizon agents.</p>
+  <p class="about-focus">I am broadly interested in <strong>LLMs</strong>, including <strong>model architectures</strong> (esp. looped models), <strong>post-training</strong> (esp. RL), and <strong>long-horizon agents</strong>.</p>
 </div>
 
 ## Education
@@ -41,7 +41,7 @@ description: About Yichen You—education, research interests, and life beyond r
 
 <div class="about-note">
   <p>I am originally from Pucheng, Shaanxi.</p>
-  <p>Outside research, I enjoy movies, badminton, and working out.</p>
+  <p>Outside research, I enjoy movies, badminton, working out, and traveling.</p>
   <p>I also enjoy collecting delightfully impractical little things—fridge magnets from different places and the tiny ducks from LINLEE Lemon Tea.</p>
 
   <div class="collection-gallery" aria-label="A small collection of fridge magnets and LINLEE ducks">
