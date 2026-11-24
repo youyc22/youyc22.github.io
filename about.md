@@ -9,7 +9,7 @@ description: About Yichen You—education, research interests, and life beyond r
 
 <div class="about-intro">
   <p class="profile-lead">I am <strong>Yichen You</strong>, a first-year Ph.D. student in the Department of Electronic Engineering at Tsinghua University. I completed my undergraduate studies at Tsinghua University in June 2026.</p>
-  <p class="about-focus">My research interests include adaptive computation, long-horizon agents, and efficient deep learning.</p>
+  <p class="about-focus">I am broadly interested in LLMs, including model architectures (esp. looped models), post-training (esp. RL), and long-horizon agents.</p>
 </div>
 
 ## Education
